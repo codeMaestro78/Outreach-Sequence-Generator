@@ -1,30 +1,45 @@
 # Automated Outreach Sequence Generator
 
-An intelligent outreach automation platform that helps you create, manage, and optimize your email outreach sequences.
+A modern web application for creating and managing email outreach sequences with personalized templates and engagement tracking.
 
 ## Features
 
-- Create and manage email templates
+- Create and manage email templates with variable support
 - Build multi-step outreach sequences
-- Track sequence performance and engagement
-- Machine learning-powered response prediction
-- Contact management with engagement scoring
-- Real-time analytics and reporting
+- Track sequence status and progress
+- Contact management with engagement tracking
+- Real-time analytics dashboard
+- Modern, responsive UI with Material Design
 
 ## Tech Stack
 
 ### Backend
 - FastAPI (Python)
-- SQLAlchemy
-- Scikit-learn
-- PyTorch
-- Transformers
+- Pydantic for data validation
+- Machine learning features with scikit-learn
+- Natural language processing with NLTK and spaCy
 
 ### Frontend
 - React
-- Material-UI
-- Axios
-- Chart.js
+- Material-UI components
+- React Router for navigation
+- Axios for API communication
+
+## Project Structure
+
+```
+.
+├── backend/           # FastAPI backend
+│   ├── main.py       # Main application file
+│   └── requirements.txt
+├── frontend/         # React frontend
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.js
+│   └── package.json
+└── README.md
+```
 
 ## Setup
 
@@ -61,6 +76,25 @@ npm start
 ## API Documentation
 
 The API documentation is available at `http://localhost:8000/docs` when the backend server is running.
+
+## Main Features
+
+### Templates
+- Create and manage email templates
+- Support for personalized variables
+- Template preview and testing
+
+### Sequences
+- Create multi-step outreach sequences
+- Track sequence status (draft, active, paused, completed)
+- Monitor sequence progress
+- Send and manage sequences
+
+### Dashboard
+- Overview of active sequences
+- Quick actions for common tasks
+- Getting started guide
+- Performance metrics
 
 ## Contributing
 
